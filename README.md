@@ -67,7 +67,7 @@ PHP (PHP: Hypertext Preprocessor) é uma linguagem de programação **open sourc
 
 ## Como usar este repositório
 
-- Navegue pelas pastas organizadas por tópico.
+- Navegue pelas arquivos das aulas, os tópicos estão organizados em sequência.
 - Veja os exemplos de código para cada conceito.
 - Utilize os códigos para praticar e testar no seu ambiente local.
 
