@@ -46,6 +46,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 else{
     echo "Erro no envio do formulário";
 }
-
-
 ?>
