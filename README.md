@@ -57,6 +57,7 @@ PHP (PHP: Hypertext Preprocessor) é uma linguagem de programação **open sourc
 8. **Trabalhando com Formulários**
     - Recebendo dados via `GET` e `POST`
     - Validação e sanitização de dados
+    - Trabalhando com arquivos de texto
 9. **Conexão com Banco de Dados**
     - MySQL com `mysqli` e PDO
     - Consultas básicas e preparadas
