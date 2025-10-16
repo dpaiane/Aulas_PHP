@@ -1,4 +1,5 @@
 <?php
+/****** ESCREVER CONTEUDO EM UM ARQUIVO *******/
 // nome do arquivo
 $arquivo = "exemplo.txt";
 $conteudo = "olá bem vindo a matrix";
@@ -19,5 +20,19 @@ if($handle){
 else{
     echo "Erro ao criar o arquivo";
 }
-
+/****** LER O CONTEUDO DE UM ARQUIVO *******/
+$arquivo = "exemplo.txt";
+/* verifica se o arquivo existe */
+if(file_Exists($arquivo)){
+    /* abre o arquivo para leitura */
+    $handle = fopen($arquivo, "r");
+    /* le todo o conteudo do arquivo */
+    #conteudo = fread($handle, filesize($arquivo));
+    /* fecha o arquivo */
+    fclose($handle);
+    /* exibe o conteudo */
+    echo nl2br(#conteudo); 
+}else{
+    echo "O arquivo não existe";
+}
 ?>
