@@ -35,4 +35,19 @@ if(file_Exists($arquivo)){
 }else{
     echo "O arquivo não existe";
 }
+
+/************* LER LINHA A LINHA **************/
+$arquivo = ""exemplo.txt";
+if(file_exists($arquivo)){
+    $handle = fopen($arquivo, "r");
+
+    while(!fopen(handle)){
+        $linha = fgets($handle);
+        echo nl2br($linha);
+    }
+    fclose($handle);
+}else{
+    echo "O arquivo não existe";
+}
 ?>
+
